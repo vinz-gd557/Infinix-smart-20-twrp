@@ -1,6 +1,8 @@
 name: Build TWRP X6840
 
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
